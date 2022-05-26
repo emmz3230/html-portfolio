@@ -1,0 +1,180 @@
+body{
+    background-image: url(./portfolio\ \ image.jpg);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #eaffff;
+    padding-left: 20px;
+}
+a:hover{
+    color:blue;
+}
+.lin{
+
+     color: #eaffff;
+     text-align: center;
+     font-size: 20px;
+    
+}
+.name{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.the {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.for{
+    /* text-align: center; */
+    font-size: 20px;
+    padding-left: 270px;
+    padding-right: 270px;
+    margin-bottom: 20px;
+}
+
+
+.web{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+    flex-flow: column ,wrap;
+    justify-content: flex-start;
+}
+img{
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.link {
+    margin-left: 20px;
+    
+  }
+  .link:hover {
+    border: 3px solid white;
+    background-color: black;
+
+  }
+.caption{
+    text-align: center;
+}
+.work{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.about{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.words{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 40px;
+}
+
+@media(min-width:320px) and (max-width:1000px)  {
+
+    body{
+        background-image: url(./portfolio\ \ image.jpg);
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: #eaffff;
+        padding-left: 20px;
+    }
+    a:hover{
+        color:blue;
+    }
+    .lin{
+    
+         color: #eaffff;
+         text-align: center;
+         font-size: 10px;
+        
+    }
+    .name{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .the {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 10px;
+    
+    }
+    .for{
+        /* text-align: center; */
+        font-size: 10px;
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .web{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    img{
+        margin-right: 55px;
+        padding-right: 14px;
+        margin-top: 4px;
+        width: 120px;
+    }
+    .flex{
+        display: block;
+        margin-left: 40px;
+        
+       }
+    li{
+        list-style: none;
+    }
+    .link {
+        width: 170px;
+        display: relative;      
+
+      }
+      .link:hover {
+        border: 3px solid white;
+        background-color: black;
+        font-size: 15px;
+    
+      }
+    .caption{
+        text-align: center;
+        font-size: 10px;
+    }
+    .work{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .about{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .words{
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 40px;
+    }
+
+}
