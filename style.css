@@ -82,6 +82,9 @@ img{
     padding-right: 200px;
     margin-bottom: 40px;
 }
+.stickyicon-list{
+    padding-left: 700px;
+}
 
 @media(min-width:320px) and (max-width:1000px)  {
 
@@ -175,6 +178,9 @@ img{
         padding-left: 50px;
         padding-right: 50px;
         margin-bottom: 40px;
+    }
+    .stickyicon-list{
+        padding-left: 70px;
     }
 
 }
